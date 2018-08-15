@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!--LOADED JQEURY HEREE-->
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
     <link rel = "stylesheet"
         type = "text/css"
         href = "myStyle.css" />
@@ -32,6 +37,28 @@
     </ul>
     <h3>Header Level 3</h3>
     <p>We will be <span class="highlight">targeting individual items</span> on this page. We'll target html elements directly, selecting them by ID or class.</p>
+
 </div>
+
+<!--Number 3 -->
+<!--Using jquery to call the elements by ID, Class, and tags Gonna highlight each with a yellow border-->
+<script>
+$("h1").css("border", "2px solid yellow");
+$("#intro").css("border", "2px solid yellow");
+$("#page-content").css("border", "2px solid yellow");
+$("#gallery li").css("border", "2px solid yellow");
+</script>
+
+<!--NUMBER 2-->
+<!--Not sure why this is turning the screen white-->
+<!--I could also use document . ready .. they both did the same but doc.ready toook longer-->
+<script>
+    $(window).on("load" , function () {
+      alert("LOCKED AND LOADED!");
+    });
+</script>
+
 </body>
+
+
 </html>
