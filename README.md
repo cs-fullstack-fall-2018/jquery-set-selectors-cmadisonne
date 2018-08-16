@@ -16,3 +16,9 @@ HINT: Use an anonymous function to execute the Javascript Alert function
 
 TIP: Use .css("border", "2px solid yellow") to highlight your selections
 
+<!--
+	KEY: Simply amazing job Maddi! The most thorough and complete submission of the night.
+	There isn't a single issue I can harp on :-P
+
+	Spot on solution,well documented, and you actually put some thought into this and tried other approaches. PERFECT!
+-->
