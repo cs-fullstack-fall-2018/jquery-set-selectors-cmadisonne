@@ -42,17 +42,18 @@
 
 <!--Number 3 -->
 <!--Using jquery to call the elements by ID, Class, and tags Gonna highlight each with a yellow border-->
-<script>
+<script> // KEY: WOW! Every one of your selectors below are SPOT ON and you added useful comments! (BTW I only changed colors so that I could see them better)
 $("h1").css("border", "2px solid yellow");
-$("#intro").css("border", "2px solid yellow");
-$("#page-content").css("border", "2px solid yellow");
-$("#gallery li").css("border", "2px solid yellow");
+$("#intro").css("border", "2px solid red");
+$("#page-content").css("border", "2px solid pink");
+$("#gallery li").css("border", "2px solid blue");
 </script>
 
 <!--NUMBER 2-->
-<!--Not sure why this is turning the screen white-->
+<!--Not sure why this is turning the screen white--> 
+<!-- KEY: The white thing is expected behavior with 'alert'. We usually just don't notice it when we don't have an image as the background -->
 <!--I could also use document . ready .. they both did the same but doc.ready toook longer-->
-<script>
+<script> // KEY: Doublely impressed you gave this a go even when I told class they didn't have to do so. You tried other approaches, like '$(document).ready()' and ended up using an anonymous function which was the perfect choice for this requirement. AWESOME!
     $(window).on("load" , function () {
       alert("LOCKED AND LOADED!");
     });
